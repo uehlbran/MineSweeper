@@ -1,4 +1,4 @@
-#MineSweeper clone created with React.js using CRA
+# MineSweeper clone created with React.js using CRA
 
 # Getting Started with Create React App
 
