@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: min-content;
+    margin: 10px 0 10px 0;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    background-color: lightgrey;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.cell:hover {
+    background-color: whitesmoke;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.hidden {
+    background-color: darkgray;
+}
+
+.hud {
+    margin-top: 15px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.danger {
+    color: red;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black; /* Green */
+    float: right;
+    color: black;
+    font-size: 16px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.state > h1 {
+    font-size: 60px;
+}
